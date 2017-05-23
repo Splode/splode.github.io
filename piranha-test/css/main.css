@@ -7,7 +7,7 @@ Dark-grey: #292b2c
 */
 
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,600|Open+Sans:300i,400');
-@@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 footer p {
   font-size: .85em;
@@ -129,6 +129,10 @@ p {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
+  footer p {
+    font-size: .75em;
+  }
+
   .cm-jumbotron-container {
     padding-top: 55px;
   }
