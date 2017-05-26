@@ -2,7 +2,7 @@
 Primary-dark: #1565c0
 Primary-med: #42a5f5
 Primary-light: #bbdefb
-Secondary: #00796b
+Secondary: #607d8b
 Accent: #ff6557
 Light blue-grey: #cfd8dc
 Dark-grey: #292b2c
@@ -74,7 +74,7 @@ p {
 }
 
 .cm-bg-secondary {
-  background-color: #00796b;
+  background-color: #607d8b;
 }
 
 .cm-bg-accent {
@@ -94,7 +94,7 @@ p {
 }
 
 .cm-color-secondary {
-  color: #00796b;
+  color: #607d8b;
 }
 
 .cm-color-accent {
@@ -130,6 +130,7 @@ p {
 .cm-jumbotron {
   background-image: url(../assets/water-blue-ocean.jpg);
   border-radius: 0;
+  margin: 0;
 }
 
 .cm-jumbotron-container {
@@ -178,10 +179,6 @@ p {
 @media (max-width: 576px) {
 
   /*Base CSS*/
-
-  footer p {
-    font-size: .75em;
-  }
 
   /*Custom CSS*/
 
