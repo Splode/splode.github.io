@@ -1,5 +1,7 @@
 /*
-Primary: #1565c0
+Primary-dark: #1565c0
+Primary-med: #42a5f5
+Primary-light: #bbdefb
 Secondary: #00796b
 Accent: #ff6557
 Light blue-grey: #cfd8dc
@@ -9,7 +11,24 @@ Dark-grey: #292b2c
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,600|Open+Sans:300i,400');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-footer p {
+/*Base CSS*/
+
+a {
+  color: inherit;
+  transition: all .5s ease;
+}
+
+footer a:hover {
+  color: #ff6557;
+  text-decoration: none;
+}
+
+footer h5 {
+  color: #42a5f5;
+}
+
+footer p, li {
+  color: #bbdefb;
   font-size: .85em;
 }
 
@@ -25,6 +44,30 @@ img {
 p {
   font-family: 'Open Sans';
 }
+
+/*Bootstrap Overrides*/
+
+.bg-faded {
+  background-color: #1565c0;
+}
+
+.btn-primary {
+  background-color: #1565c0;
+}
+
+.btn-primary:hover {
+  background-color: #42a5f5;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+/*Custom CSS*/
 
 .cm-bg-primary {
   background-color: #1565c0;
@@ -44,6 +87,18 @@ p {
 
 .cm-bg-dark {
   background-color: #292b2c;
+}
+
+.cm-color-primary-dark {
+  color: #1565c0;
+}
+
+.cm-color-secondary {
+  color: #00796b;
+}
+
+.cm-color-accent {
+  color: #ff6557;
 }
 
 .cm-color-light {
@@ -69,14 +124,6 @@ p {
 
 .cm-dropdown-menu {
   float: left !important;
-}
-
-.bg-faded {
-  background-color: #1565c0;
-}
-
-.navbar-brand {
-  color: white;
 }
 
 /*Jumbotron*/
@@ -129,9 +176,14 @@ p {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
+
+  /*Base CSS*/
+
   footer p {
     font-size: .75em;
   }
+
+  /*Custom CSS*/
 
   .cm-jumbotron-container {
     padding-top: 55px;
@@ -157,9 +209,8 @@ p {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  .cm-jumbotron {
-    height: 80vh;
-  }
+
+  /*Bootstrap overrides*/
 
   .nav-item {
     margin-right: 1.5em;
@@ -168,6 +219,13 @@ p {
   .nav-item:last-child {
     margin-right: 0;
   }
+
+  /*Custom CSS*/
+
+  .cm-jumbotron {
+    height: 80vh;
+  }
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
