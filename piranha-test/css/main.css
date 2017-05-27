@@ -27,7 +27,7 @@ footer h5 {
   color: #42a5f5;
 }
 
-footer p, li {
+footer p, footer li {
   color: #bbdefb;
   font-size: .85em;
 }
@@ -47,6 +47,10 @@ p {
 
 /*Bootstrap Overrides*/
 
+nav a:focus, nav a:hover {
+  color: #ff6557;
+}
+
 .bg-faded {
   background-color: #1565c0;
 }
@@ -64,7 +68,7 @@ p {
 }
 
 .navbar-brand {
-  color: white;
+  color: white !important;
 }
 
 /*Custom CSS*/
@@ -115,23 +119,6 @@ p {
 
 .cm-color-white {
   color: white;
-}
-
-/*Navigation*/
-
-.cm-nav-container {
-  background-color: #1565c0;
-  position: fixed;
-  width: 100%;
-  z-index: 1000;
-}
-
-.cm-nav-menu {
-  justify-content: flex-end;
-}
-
-.cm-dropdown-menu {
-  float: left !important;
 }
 
 /*Jumbotron*/
