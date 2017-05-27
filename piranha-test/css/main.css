@@ -73,6 +73,14 @@ p {
   background-color: #1565c0;
 }
 
+.cm-bg-primary-med {
+  background-color: #42a5f5;
+}
+
+.cm-bg-primary-light {
+  background-color: #bbdefb;
+}
+
 .cm-bg-secondary {
   background-color: #607d8b;
 }
@@ -171,6 +179,10 @@ p {
   font-size: 1.66em;
   font-weight: 400;
   line-height: 1.25em;
+}
+
+.cm-product-heading {
+  margin: 0 0 -.3em;
 }
 
 /*Media Queries*/
