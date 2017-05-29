@@ -82,7 +82,11 @@ nav a:focus, nav a:hover {
 }
 
 .card {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 1px 11px 0 rgba(0,0,0,.1);
   margin-top: 2em;
+  transition: all .3s ease;
 }
 
 /*Carousel Styles*/
@@ -92,20 +96,24 @@ nav a:focus, nav a:hover {
 }
 
 .carousel-indicators {
-  bottom: -75px;
+  bottom: -70px;
 }
 
 .carousel-indicators li {
   background-color: #cfd8dc;
   border-radius: 50%;
-  height: 20px;
+  height: 15px;
   margin-left: 6px;
   margin-right: 6px;
-  max-width: 20px;
+  max-width: 15px;
 }
 
 .carousel-indicators .active {
   background-color: #1565c0;
+}
+
+.navbar {
+  border-bottom: 1px solid white;
 }
 
 .navbar-brand {
@@ -218,6 +226,10 @@ nav a:focus, nav a:hover {
   margin-top: 15vh;
 }
 
+.cm-product-desc {
+  line-height: 2em;
+}
+
 .cm-menu-icon {
   color: white;
   font-size: 1.5em;
@@ -295,11 +307,30 @@ max-width: 20%;
     margin-right: 0;
   }
 
+  .card:hover {
+    box-shadow: 0 1px 11px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1565c0;
+  }
+
   /*Custom CSS*/
 
   .cm-jumbotron {
     height: 80vh;
     max-height: 1200px;
+  }
+
+  .carousel-thumbnail li {
+    cursor: pointer;
+    transition: all .3s ease;
+  }
+
+  .carousel-thumbnail li:hover {
+    opacity: .75;
   }
 
 }
