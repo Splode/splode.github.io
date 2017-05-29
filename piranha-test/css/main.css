@@ -49,6 +49,20 @@ p {
   font-family: 'Open Sans';
 }
 
+table {
+  margin: 0 auto;
+}
+
+table a:hover {
+  color: #ff6557;
+  text-decoration: none;
+}
+
+table i {
+  margin-right: .5em;
+  vertical-align: bottom;
+}
+
 /*Bootstrap Overrides*/
 
 nav a:focus, nav a:hover {
@@ -69,6 +83,29 @@ nav a:focus, nav a:hover {
 
 .card {
   margin-top: 2em;
+}
+
+/*Carousel Styles*/
+
+.carousel-caption {
+  bottom: 0;
+}
+
+.carousel-indicators {
+  bottom: -75px;
+}
+
+.carousel-indicators li {
+  background-color: #cfd8dc;
+  border-radius: 50%;
+  height: 20px;
+  margin-left: 6px;
+  margin-right: 6px;
+  max-width: 20px;
+}
+
+.carousel-indicators .active {
+  background-color: #1565c0;
 }
 
 .navbar-brand {
@@ -186,6 +223,10 @@ nav a:focus, nav a:hover {
   font-size: 1.5em;
 }
 
+.carousel-thumbnail {
+  margin-top: 100px;
+}
+
 .carousel-thumbnail li {
   list-style-type: none;
   display: inline-block;
@@ -197,7 +238,7 @@ nav a:focus, nav a:hover {
 }
 
 /*.carousel-thumbnail img {
-  max-width: 20%;
+max-width: 20%;
 }*/
 
 /*Media Queries*/
@@ -234,6 +275,10 @@ nav a:focus, nav a:hover {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+  table {
+    display: table !important; /* Full-width on desktop */
+  }
 
 }
 
