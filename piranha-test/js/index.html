@@ -17,7 +17,7 @@
   <a id="top"></a>
 
   <!-- Nav container -->
-  <nav class="navbar navbar-toggleable-md fixed-top bg-faded cm-color-white">
+  <nav class="navbar navbar-toggleable-md fixed-top bg-faded cm-color-white" id="js-navbar">
     <div class="container">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <!-- <span class="navbar-toggler-icon"></span> -->
@@ -36,10 +36,10 @@
               Products
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="products.html#dredges">Dredges</a>
-              <a class="dropdown-item" href="products.html#pumps">Submersible Pumps</a>
-              <a class="dropdown-item" href="products.html#floating">Floating Platforms</a>
-              <a class="dropdown-item" href="products.html#others">Other Products</a>
+              <a class="dropdown-item" href="products.html">Dredges</a>
+              <a class="dropdown-item" href="products.html">Submersible Pumps</a>
+              <a class="dropdown-item" href="products.html">Floating Platforms</a>
+              <a class="dropdown-item" href="products.html">Other Products</a>
             </div>
           </li>
           <!-- Videos Dropdown -->
@@ -76,7 +76,7 @@
       <div class="row justify-content-center">
         <div class="col-md-8">
           <p class="lead my-5 cm-jumbotron-lead">Offering highly-efficient and cost-effective dredging and solids removal systems for a variety of applications.</p>
-          <p><a href="products.html" class="btn btn-primary border-0 rounded-0 cm-button cm-bg-accent">See Our Products</a></p>
+          <p><a href="products.html" class="btn btn-primary btn-lg border-0 rounded-0 cm-button cm-bg-accent">See Our Products</a></p>
         </div>
       </div>
     </div>
@@ -94,10 +94,10 @@
   <!-- Dredges -->
   <section class="container py-5">
     <div class="row d-flex align-items-center">
-      <div class="col-md-4">
-        <h2>Dredges</h2>
+      <div class="col-md-4 text-center text-md-left">
+        <h2 class="text-uppercase">Dredges</h2>
         <p>We offer a wide range of dredging systems to suit any application. Our dredges are built upon industrial-strength floating platform systems, which offer increased mobility and efficiency.</p>
-        <p><a href="products.html#dredges" class="btn btn-primary border-0 rounded-0 cm-bg-primary">Shop Dredges</a></p>
+        <p><a href="products.html#dredges" class="btn btn-primary btn-lg border-0 rounded-0 mt-2 text-uppercase cm-bg-primary">Shop Dredges</a></p>
       </div>
       <div class="col-md-8">
         <img src="./assets/dredge-lg.jpg" alt="">
@@ -110,7 +110,7 @@
     <div class="row d-flex align-items-center justify-content-center">
       <div class="col-xl-8 col-md-10 text-center cm-color-white">
         <h3 class="mb-4 cm-aside-heading">We offer industrial dredges, small portable dredges, floating pumps, submersible pumps, and engine driven pumps for: mud, sand, muck, gravel, slurry, dewatering, solids, corrosives, trash, and firefighting.</h3>
-        <p><a href="products.html#" class="btn btn-primary border-0 rounded-0 cm-bg-accent">Shop Our Full Line of Products</a></p>
+        <p><a href="products.html" class="btn btn-primary btn-lg border-0 rounded-0 mt-4 text-uppercase cm-bg-accent">Shop Our Full Line of Products</a></p>
       </div>
     </div>
   </aside>
@@ -121,10 +121,10 @@
       <div class="col-md-8">
         <img src="./assets/pumps-lg.jpg" alt="">
       </div>
-      <div class="col-md-4">
-        <h2>Submersible Pumps</h2>
+      <div class="col-md-4 text-center text-md-left">
+        <h2 class="text-uppercase">Submersible Pumps</h2>
         <p>Our water-cooled, electrically-operated submersible pumps are designed to run continuously with minimal maintenance and oversight. Our submersible pumps can be customized to operate on an advanced control system and can also made with corrosive-resistant materials, depending upon the needs of your application.</p>
-        <p><a href="#" class="btn btn-primary border-0 rounded-0 cm-bg-primary">Shop Submersible Pumps</a></p>
+        <p><a href="products.html#pumps" class="btn btn-primary btn-lg border-0 rounded-0 mt-2 text-uppercase cm-bg-primary">Shop Submersible Pumps</a></p>
       </div>
     </div>
   </section>
@@ -133,7 +133,9 @@
   <aside class="container-fluid py-5 cm-bg-secondary">
     <div class="row d-flex align-items-center justify-content-center">
       <div class="col-xl-8 col-md-10 text-center cm-color-white">
-        <h3 class="cm-aside-heading">Our pumps are cost-effective, highly-efficient, and easy to maintain and store.</h3>
+        <!-- <h3 class="cm-aside-heading">Our pumps are cost-effective, highly-efficient, and easy to maintain and store.</h3> -->
+        <h3 class="cm-aside-heading">Contact us with the specifications of your application and we can work with you to format a pumping system that best suits your needs.</h3>
+        <a class="btn btn-primary btn-lg border-0 rounded-0 mt-4 text-uppercase cm-bg-white cm-color-secondary" href="#">Contact Us</a>
       </div>
     </div>
   </aside>
@@ -142,7 +144,7 @@
   <footer class="container-fluid py-5 cm-bg-primary cm-color-white">
     <div class="container">
       <div class="row d-flex">
-        <div class="col-md-6">
+        <div class="col-md-4 text-center text-md-left">
           <h5>Piranha Pumps & Dredges</h5>
           <p>
             Manufacturing & Sales: Albuquerque, NM <br>
@@ -152,7 +154,7 @@
           </p>
           <p>&copy; 2017 Equipment Specialties Co., Inc.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-center text-md-left">
           <h5>Products</h5>
           <ul class="list-unstyled">
             <li><a href="products.html#dredges">Dredges</a></li>
@@ -161,27 +163,38 @@
             <li><a href="products.html#cannons">Water Cannons</a></li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 text-center text-md-left">
           <h5>Follow Us</h5>
           <ul class="list-unstyled">
             <li>Could be support</li>
             <li>with contact info</li>
             <li>or social media links</li>
           </ul>
-        </div>
-      </div>
+  </div>
+  <div class="col-md-2 text-center text-md-left">
+    <div class="row d-flex align-items-center">
+      <!-- <div class="col">
+      <img src="./assets/stamp.svg" alt="">
+    </div> -->
+    <div class="col cm-footer-stamp">
+      <img src="./assets/american-flag.svg" alt="">
+      <p class="text-center my-3">Our pumps and dredges are proudly made in the U.S.A.</p>
     </div>
-  </footer>
+  </div>
+</div>
+</div>
+</div>
+</footer>
 
-  <!-- Scripts -->
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
-  </script>
-  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="./js/main.js"></script>
+<!-- Scripts -->
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+</script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 
 </body>
 </html>

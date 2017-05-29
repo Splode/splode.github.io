@@ -5,7 +5,7 @@ Primary-light: #bbdefb
 Secondary: #607d8b
 Accent: #ff6557
 Light blue-grey: #cfd8dc
-Dark-grey: #292b2c
+Dark-grey: #37474f
 */
 
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,600|Open+Sans:300i,400');
@@ -16,6 +16,10 @@ Dark-grey: #292b2c
 a {
   color: inherit;
   transition: all .5s ease;
+}
+
+body {
+  color: #37474f;
 }
 
 footer a:hover {
@@ -86,7 +90,7 @@ nav a:focus, nav a:hover {
 }
 
 .cm-bg-secondary {
-  background-color: #607d8b;
+  background-color: #005e5d;
 }
 
 .cm-bg-accent {
@@ -97,8 +101,8 @@ nav a:focus, nav a:hover {
   background-color: #cfd8dc;
 }
 
-.cm-bg-dark {
-  background-color: #292b2c;
+.cm-bg-white {
+  background-color: white;
 }
 
 .cm-color-primary-dark {
@@ -106,7 +110,7 @@ nav a:focus, nav a:hover {
 }
 
 .cm-color-secondary {
-  color: #607d8b;
+  color: #005e5d;
 }
 
 .cm-color-accent {
@@ -169,13 +173,32 @@ nav a:focus, nav a:hover {
 }
 
 .cm-product-heading {
+  font-weight: 600;
   margin: 0 0 -.3em;
+}
+
+.cm-product-container {
+  margin-top: 15vh;
 }
 
 .cm-menu-icon {
   color: white;
   font-size: 1.5em;
 }
+
+.carousel-thumbnail li {
+  list-style-type: none;
+  display: inline-block;
+  flex: 0 0 22%;
+}
+
+.carousel-thumbnail ul {
+  flex-wrap: wrap;
+}
+
+/*.carousel-thumbnail img {
+  max-width: 20%;
+}*/
 
 /*Media Queries*/
 
@@ -201,6 +224,12 @@ nav a:focus, nav a:hover {
   .cm-aside-heading {
     font-size: 1.25em;
   }
+
+  .cm-footer-stamp img, .cm-footer-stamp p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -225,6 +254,7 @@ nav a:focus, nav a:hover {
 
   .cm-jumbotron {
     height: 80vh;
+    max-height: 1200px;
   }
 
 }
