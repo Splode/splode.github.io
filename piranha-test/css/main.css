@@ -112,6 +112,10 @@ nav a:focus, nav a:hover {
   background-color: #1565c0;
 }
 
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: block;
+}
+
 .navbar {
   border-bottom: 1px solid white;
 }
@@ -226,8 +230,11 @@ nav a:focus, nav a:hover {
   margin-top: 15vh;
 }
 
-.cm-product-desc {
-  line-height: 2em;
+.cm-product-feature-list li {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9em;
+  margin-bottom: 1em;
 }
 
 .cm-menu-icon {
