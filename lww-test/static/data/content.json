@@ -1,0 +1,24 @@
+{
+  "wolf": {
+    "audio": "bird-song.mp3",
+    "backgroundImg": "wolf-bg-blur.jpg",
+    "mapDetail": [
+      {
+        "name": "wolf-skull",
+        "image": "wolf-skull.jpg",
+        "title": "Skull",
+        "description": "Wolves have large teeth, and jaws with a bite force of 1,200 pounds per square inch, capable of crushing the thighbone of a moose."
+      },
+      {
+        "name": "wolf-pup",
+        "title": "Eight Week Old Puppy",
+        "image": "wolf-pup.jpg",
+        "description": "The young wolves watch the behaviors of the adults and see how the game is played. They learn how the hunters handle each different situation: what to do when the prey dashes for open ground, or turns to defend itself. In this way knowledge is passed from one generation to the next."
+      }
+    ]
+  },
+  "landscape": {
+    "audio": "windy-forest.mp3",
+    "backgroundImg": "http://via.placeholder.com/3048x2160"
+  }
+}
