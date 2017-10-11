@@ -1,9 +1,8 @@
 {
   "wolf": {
-    "audio": "bird-song.mp3",
-    "backgroundImg": "wolf-bg-blur.jpg",
-    "mapDetail": [
-      {
+    "audio": "windy-forest.mp3",
+    "backgroundImg": "landscape-bg-blur.jpg",
+    "mapDetail": [{
         "name": "wolf-skull",
         "image": "wolf-skull.jpg",
         "title": "Skull",
@@ -19,6 +18,17 @@
   },
   "landscape": {
     "audio": "windy-forest.mp3",
-    "backgroundImg": "http://via.placeholder.com/3048x2160"
+    "backgroundImg": "landscape-bg-blur.jpg",
+    "maps": [{
+        "withoutWolves": {
+          "mapImage": "landscape-without-wolves.jpg"
+        }
+      },
+      {
+        "withWolves": {
+          "mapImage": "landscape-with-wolves.jpg"
+        }
+      }
+    ]
   }
 }
